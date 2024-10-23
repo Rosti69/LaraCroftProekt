@@ -2,7 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f4f8;
-    color: #2b2d42;
+    color: #000000;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -33,16 +33,20 @@ header {
 
 /* Navigation */
 nav {
-    background-color: #14213d;
+    
+    background-color: #3a86ff;
     padding: 15px 0;
     text-align: center;
+    
 }
-
+nav a {
+    color:white;
+}
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+    
 
 nav ul li {
     display: inline-block;
@@ -59,7 +63,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #3a86ff;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
